@@ -10,5 +10,5 @@ docker build -t opvolger/xonotic .
 
 Run:
 ```bash
-docker run -p 26000:26000/udp opvolger/xonotic --name xonotic
+docker run -i -p 26000:26000/udp -p 26000:26000/tcp --name xonotic opvolger/xonotic
 ```
